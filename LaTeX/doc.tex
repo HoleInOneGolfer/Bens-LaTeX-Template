@@ -1,25 +1,36 @@
 \documentclass[12pt, letterpaper]{article}
 
-\title{NeoVim LaTeX Template}
-\author{Benjamin Bowles}
-\date{\today}
+\title{Title}
+\author{Name}
+\date{\sl{Date}}
 
 \input{pre}
 
 \begin{document}
 
-%%%% Title Page %%%%
+%%%%%%%%%%%%%%%%%%%%
 \maketitle
 \newpage
-% ----- TOC ------ %
+
 \tableofcontents
 \newpage
 %%%%%%%%%%%%%%%%%%%%
 
 
-%%%% Bibliography %%%%
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+\newpage
+\pagenumbering{roman}
+
+% -- Bibliography -- %
 \bibliography{bib}
-\bibliographystyle{plain}
-%%%%%%%%%%%%%%%%%%%%%%
+\bibliographystyle{apacite}
+
+% -- Lists -- %
+\listoffigures
+\listoftables
+
 
 \end{document}
